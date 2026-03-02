@@ -1,0 +1,1017 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Switch:SW_SPST SW1
+U 1 1 69A55E88
+P 1150 950
+F 0 "SW1" H 1150 1185 50  0000 C CNN
+F 1 "SW_SPST" H 1150 1094 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate" H 1150 950 50  0001 C CNN
+F 3 "~" H 1150 950 50  0001 C CNN
+	1    1150 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_SPST SW2
+U 1 1 69A56EC4
+P 1900 950
+F 0 "SW2" H 1900 1185 50  0000 C CNN
+F 1 "SW_SPST" H 1900 1094 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate" H 1900 950 50  0001 C CNN
+F 3 "~" H 1900 950 50  0001 C CNN
+	1    1900 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_SPST SW6
+U 1 1 69A5A1D5
+P 1900 1350
+F 0 "SW6" H 1900 1585 50  0000 C CNN
+F 1 "SW_SPST" H 1900 1494 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate" H 1900 1350 50  0001 C CNN
+F 3 "~" H 1900 1350 50  0001 C CNN
+	1    1900 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_SPST SW9
+U 1 1 69A5DCC7
+P 1150 1850
+F 0 "SW9" H 1150 2085 50  0000 C CNN
+F 1 "SW_SPST" H 1150 1994 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate" H 1150 1850 50  0001 C CNN
+F 3 "~" H 1150 1850 50  0001 C CNN
+	1    1150 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_SPST SW10
+U 1 1 69A5DCCD
+P 1900 1850
+F 0 "SW10" H 1900 2085 50  0000 C CNN
+F 1 "SW_SPST" H 1900 1994 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate" H 1900 1850 50  0001 C CNN
+F 3 "~" H 1900 1850 50  0001 C CNN
+	1    1900 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_SPST SW13
+U 1 1 69A5DCDF
+P 1100 2400
+F 0 "SW13" H 1100 2635 50  0000 C CNN
+F 1 "SW_SPST" H 1100 2544 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate" H 1100 2400 50  0001 C CNN
+F 3 "~" H 1100 2400 50  0001 C CNN
+	1    1100 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_SPST SW14
+U 1 1 69A5DCE5
+P 1850 2400
+F 0 "SW14" H 1850 2635 50  0000 C CNN
+F 1 "SW_SPST" H 1850 2544 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate" H 1850 2400 50  0001 C CNN
+F 3 "~" H 1850 2400 50  0001 C CNN
+	1    1850 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_SPST SW17
+U 1 1 69A5F153
+P 1150 2900
+F 0 "SW17" H 1150 3135 50  0000 C CNN
+F 1 "SW_SPST" H 1150 3044 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate" H 1150 2900 50  0001 C CNN
+F 3 "~" H 1150 2900 50  0001 C CNN
+	1    1150 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_SPST SW18
+U 1 1 69A5F159
+P 1900 2900
+F 0 "SW18" H 1900 3135 50  0000 C CNN
+F 1 "SW_SPST" H 1900 3044 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate" H 1900 2900 50  0001 C CNN
+F 3 "~" H 1900 2900 50  0001 C CNN
+	1    1900 2900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	950  950  950  1100
+Wire Wire Line
+	950  1100 1700 1100
+Wire Wire Line
+	1700 1100 1700 950 
+Wire Wire Line
+	950  1350 950  1550
+Wire Wire Line
+	950  1550 1700 1550
+Wire Wire Line
+	1700 1550 1700 1350
+Wire Wire Line
+	950  1850 950  2050
+Wire Wire Line
+	950  2050 1700 2050
+Wire Wire Line
+	1700 2050 1700 1850
+Wire Wire Line
+	900  2400 900  2550
+Wire Wire Line
+	900  2550 1650 2550
+Wire Wire Line
+	1650 2550 1650 2400
+Wire Wire Line
+	1700 3150 1700 2900
+Wire Wire Line
+	1700 3150 950  3150
+Wire Wire Line
+	950  3150 950  2900
+$Comp
+L Device:D D9
+U 1 1 69A68A34
+P 1350 2000
+F 0 "D9" V 1396 1920 50  0000 R CNN
+F 1 "D" V 1305 1920 50  0000 R CNN
+F 2 "Diode_THT:D_T-1_P5.08mm_Horizontal" H 1350 2000 50  0001 C CNN
+F 3 "~" H 1350 2000 50  0001 C CNN
+	1    1350 2000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D13
+U 1 1 69A6922F
+P 1300 2550
+F 0 "D13" V 1346 2470 50  0000 R CNN
+F 1 "D" V 1255 2470 50  0000 R CNN
+F 2 "Diode_THT:D_T-1_P5.08mm_Horizontal" H 1300 2550 50  0001 C CNN
+F 3 "~" H 1300 2550 50  0001 C CNN
+	1    1300 2550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D17
+U 1 1 69A69985
+P 1350 3050
+F 0 "D17" V 1396 2970 50  0000 R CNN
+F 1 "D" V 1305 2970 50  0000 R CNN
+F 2 "Diode_THT:D_T-1_P5.08mm_Horizontal" H 1350 3050 50  0001 C CNN
+F 3 "~" H 1350 3050 50  0001 C CNN
+	1    1350 3050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D18
+U 1 1 69A6A14E
+P 2100 3050
+F 0 "D18" V 2146 2970 50  0000 R CNN
+F 1 "D" V 2055 2970 50  0000 R CNN
+F 2 "Diode_THT:D_T-1_P5.08mm_Horizontal" H 2100 3050 50  0001 C CNN
+F 3 "~" H 2100 3050 50  0001 C CNN
+	1    2100 3050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D14
+U 1 1 69A6BA9D
+P 2050 2550
+F 0 "D14" V 2096 2470 50  0000 R CNN
+F 1 "D" V 2005 2470 50  0000 R CNN
+F 2 "Diode_THT:D_T-1_P5.08mm_Horizontal" H 2050 2550 50  0001 C CNN
+F 3 "~" H 2050 2550 50  0001 C CNN
+	1    2050 2550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D10
+U 1 1 69A6E93A
+P 2100 2000
+F 0 "D10" V 2146 1920 50  0000 R CNN
+F 1 "D" V 2055 1920 50  0000 R CNN
+F 2 "Diode_THT:D_T-1_P5.08mm_Horizontal" H 2100 2000 50  0001 C CNN
+F 3 "~" H 2100 2000 50  0001 C CNN
+	1    2100 2000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D6
+U 1 1 69A6F00E
+P 2100 1500
+F 0 "D6" V 2146 1420 50  0000 R CNN
+F 1 "D" V 2055 1420 50  0000 R CNN
+F 2 "Diode_THT:D_T-1_P5.08mm_Horizontal" H 2100 1500 50  0001 C CNN
+F 3 "~" H 2100 1500 50  0001 C CNN
+	1    2100 1500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D2
+U 1 1 69A71516
+P 2100 1100
+F 0 "D2" V 2146 1020 50  0000 R CNN
+F 1 "D" V 2055 1020 50  0000 R CNN
+F 2 "Diode_THT:D_T-1_P5.08mm_Horizontal" H 2100 1100 50  0001 C CNN
+F 3 "~" H 2100 1100 50  0001 C CNN
+	1    2100 1100
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2050 2700 2100 2700
+Wire Wire Line
+	2100 2700 2100 2900
+Connection ~ 2100 2900
+Wire Wire Line
+	2100 2700 2100 2150
+Wire Wire Line
+	2100 1850 2100 1650
+Wire Wire Line
+	2100 1350 2100 1250
+Connection ~ 2100 2700
+Connection ~ 2100 1350
+Connection ~ 2100 1850
+Wire Wire Line
+	1350 1650 1350 1850
+Wire Wire Line
+	1350 2150 1350 2700
+Connection ~ 1350 1850
+Connection ~ 1350 2900
+Wire Wire Line
+	1300 2700 1350 2700
+Connection ~ 1350 2700
+Wire Wire Line
+	1350 2700 1350 2900
+Connection ~ 1350 1350
+Wire Wire Line
+	1350 1250 1350 1350
+$Comp
+L Device:D D5
+U 1 1 69A6644D
+P 1350 1500
+F 0 "D5" V 1396 1420 50  0000 R CNN
+F 1 "D" V 1305 1420 50  0000 R CNN
+F 2 "Diode_THT:D_T-1_P5.08mm_Horizontal" H 1350 1500 50  0001 C CNN
+F 3 "~" H 1350 1500 50  0001 C CNN
+	1    1350 1500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D1
+U 1 1 69A65261
+P 1350 1100
+F 0 "D1" V 1396 1020 50  0000 R CNN
+F 1 "D" V 1305 1020 50  0000 R CNN
+F 2 "Diode_THT:D_T-1_P5.08mm_Horizontal" H 1350 1100 50  0001 C CNN
+F 3 "~" H 1350 1100 50  0001 C CNN
+	1    1350 1100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_SPST SW5
+U 1 1 69A5A1CF
+P 1150 1350
+F 0 "SW5" H 1150 1585 50  0000 C CNN
+F 1 "SW_SPST" H 1150 1494 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate" H 1150 1350 50  0001 C CNN
+F 3 "~" H 1150 1350 50  0001 C CNN
+	1    1150 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D21
+U 1 1 69A80359
+P 5350 1000
+F 0 "D21" H 5343 745 50  0000 C CNN
+F 1 "LED" H 5343 836 50  0000 C CNN
+F 2 "" H 5350 1000 50  0001 C CNN
+F 3 "~" H 5350 1000 50  0001 C CNN
+	1    5350 1000
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED D22
+U 1 1 69A90EE2
+P 5950 1000
+F 0 "D22" H 5943 745 50  0000 C CNN
+F 1 "LED" H 5943 836 50  0000 C CNN
+F 2 "" H 5950 1000 50  0001 C CNN
+F 3 "~" H 5950 1000 50  0001 C CNN
+	1    5950 1000
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED D23
+U 1 1 69A9268B
+P 6650 1000
+F 0 "D23" H 6643 745 50  0000 C CNN
+F 1 "LED" H 6643 836 50  0000 C CNN
+F 2 "" H 6650 1000 50  0001 C CNN
+F 3 "~" H 6650 1000 50  0001 C CNN
+	1    6650 1000
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED D24
+U 1 1 69A92691
+P 7250 1000
+F 0 "D24" H 7243 745 50  0000 C CNN
+F 1 "LED" H 7243 836 50  0000 C CNN
+F 2 "" H 7250 1000 50  0001 C CNN
+F 3 "~" H 7250 1000 50  0001 C CNN
+	1    7250 1000
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED D25
+U 1 1 69A9847D
+P 5350 1400
+F 0 "D25" H 5343 1145 50  0000 C CNN
+F 1 "LED" H 5343 1236 50  0000 C CNN
+F 2 "" H 5350 1400 50  0001 C CNN
+F 3 "~" H 5350 1400 50  0001 C CNN
+	1    5350 1400
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED D26
+U 1 1 69A98483
+P 5950 1400
+F 0 "D26" H 5943 1145 50  0000 C CNN
+F 1 "LED" H 5943 1236 50  0000 C CNN
+F 2 "" H 5950 1400 50  0001 C CNN
+F 3 "~" H 5950 1400 50  0001 C CNN
+	1    5950 1400
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED D28
+U 1 1 69A9848F
+P 7250 1400
+F 0 "D28" H 7243 1145 50  0000 C CNN
+F 1 "LED" H 7243 1236 50  0000 C CNN
+F 2 "" H 7250 1400 50  0001 C CNN
+F 3 "~" H 7250 1400 50  0001 C CNN
+	1    7250 1400
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED D27
+U 1 1 69A98489
+P 6650 1400
+F 0 "D27" H 6643 1145 50  0000 C CNN
+F 1 "LED" H 6643 1236 50  0000 C CNN
+F 2 "" H 6650 1400 50  0001 C CNN
+F 3 "~" H 6650 1400 50  0001 C CNN
+	1    6650 1400
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED D29
+U 1 1 69A9D5D3
+P 5350 1700
+F 0 "D29" H 5343 1445 50  0000 C CNN
+F 1 "LED" H 5343 1536 50  0000 C CNN
+F 2 "" H 5350 1700 50  0001 C CNN
+F 3 "~" H 5350 1700 50  0001 C CNN
+	1    5350 1700
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED D30
+U 1 1 69A9D5D9
+P 5950 1700
+F 0 "D30" H 5943 1445 50  0000 C CNN
+F 1 "LED" H 5943 1536 50  0000 C CNN
+F 2 "" H 5950 1700 50  0001 C CNN
+F 3 "~" H 5950 1700 50  0001 C CNN
+	1    5950 1700
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED D31
+U 1 1 69A9D5DF
+P 6650 1700
+F 0 "D31" H 6643 1445 50  0000 C CNN
+F 1 "LED" H 6643 1536 50  0000 C CNN
+F 2 "" H 6650 1700 50  0001 C CNN
+F 3 "~" H 6650 1700 50  0001 C CNN
+	1    6650 1700
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED D32
+U 1 1 69A9D5E5
+P 7250 1700
+F 0 "D32" H 7243 1445 50  0000 C CNN
+F 1 "LED" H 7243 1536 50  0000 C CNN
+F 2 "" H 7250 1700 50  0001 C CNN
+F 3 "~" H 7250 1700 50  0001 C CNN
+	1    7250 1700
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED D33
+U 1 1 69A9D5EB
+P 5350 2100
+F 0 "D33" H 5343 1845 50  0000 C CNN
+F 1 "LED" H 5343 1936 50  0000 C CNN
+F 2 "" H 5350 2100 50  0001 C CNN
+F 3 "~" H 5350 2100 50  0001 C CNN
+	1    5350 2100
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED D34
+U 1 1 69A9D5F1
+P 5950 2100
+F 0 "D34" H 5943 1845 50  0000 C CNN
+F 1 "LED" H 5943 1936 50  0000 C CNN
+F 2 "" H 5950 2100 50  0001 C CNN
+F 3 "~" H 5950 2100 50  0001 C CNN
+	1    5950 2100
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED D36
+U 1 1 69A9D5F7
+P 7250 2100
+F 0 "D36" H 7243 1845 50  0000 C CNN
+F 1 "LED" H 7243 1936 50  0000 C CNN
+F 2 "" H 7250 2100 50  0001 C CNN
+F 3 "~" H 7250 2100 50  0001 C CNN
+	1    7250 2100
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED D35
+U 1 1 69A9D5FD
+P 6650 2100
+F 0 "D35" H 6643 1845 50  0000 C CNN
+F 1 "LED" H 6643 1936 50  0000 C CNN
+F 2 "" H 6650 2100 50  0001 C CNN
+F 3 "~" H 6650 2100 50  0001 C CNN
+	1    6650 2100
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED D37
+U 1 1 69AA5329
+P 5350 2450
+F 0 "D37" H 5343 2195 50  0000 C CNN
+F 1 "LED" H 5343 2286 50  0000 C CNN
+F 2 "" H 5350 2450 50  0001 C CNN
+F 3 "~" H 5350 2450 50  0001 C CNN
+	1    5350 2450
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED D38
+U 1 1 69AA532F
+P 5950 2450
+F 0 "D38" H 5943 2195 50  0000 C CNN
+F 1 "LED" H 5943 2286 50  0000 C CNN
+F 2 "" H 5950 2450 50  0001 C CNN
+F 3 "~" H 5950 2450 50  0001 C CNN
+	1    5950 2450
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED D39
+U 1 1 69AA5335
+P 6650 2450
+F 0 "D39" H 6643 2195 50  0000 C CNN
+F 1 "LED" H 6643 2286 50  0000 C CNN
+F 2 "" H 6650 2450 50  0001 C CNN
+F 3 "~" H 6650 2450 50  0001 C CNN
+	1    6650 2450
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED D40
+U 1 1 69AA533B
+P 7250 2450
+F 0 "D40" H 7243 2195 50  0000 C CNN
+F 1 "LED" H 7243 2286 50  0000 C CNN
+F 2 "" H 7250 2450 50  0001 C CNN
+F 3 "~" H 7250 2450 50  0001 C CNN
+	1    7250 2450
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5200 1000 5200 1100
+Wire Wire Line
+	5200 1100 5800 1100
+Wire Wire Line
+	5800 1100 5800 1000
+Wire Wire Line
+	5800 1100 6500 1100
+Wire Wire Line
+	7100 1100 7100 1000
+Connection ~ 5800 1100
+Wire Wire Line
+	6500 1000 6500 1100
+Connection ~ 6500 1100
+Wire Wire Line
+	6500 1100 7100 1100
+Wire Wire Line
+	5200 1400 5200 1500
+Wire Wire Line
+	5200 1500 5800 1500
+Wire Wire Line
+	7100 1500 7100 1400
+Wire Wire Line
+	6500 1400 6500 1500
+Connection ~ 6500 1500
+Wire Wire Line
+	6500 1500 7100 1500
+Wire Wire Line
+	5800 1400 5800 1500
+Connection ~ 5800 1500
+Wire Wire Line
+	5800 1500 6500 1500
+Wire Wire Line
+	5200 1700 5200 1800
+Wire Wire Line
+	5200 1800 5800 1800
+Wire Wire Line
+	7100 1800 7100 1700
+Wire Wire Line
+	6500 1700 6500 1800
+Connection ~ 6500 1800
+Wire Wire Line
+	6500 1800 7100 1800
+Wire Wire Line
+	5800 1700 5800 1800
+Connection ~ 5800 1800
+Wire Wire Line
+	5800 1800 6500 1800
+Wire Wire Line
+	5200 2100 5200 2200
+Wire Wire Line
+	5200 2200 5800 2200
+Wire Wire Line
+	5800 2200 5800 2100
+Wire Wire Line
+	5800 2200 6500 2200
+Wire Wire Line
+	6500 2200 6500 2100
+Connection ~ 5800 2200
+Wire Wire Line
+	6500 2200 7100 2200
+Wire Wire Line
+	7100 2200 7100 2100
+Connection ~ 6500 2200
+Wire Wire Line
+	7100 2450 7100 2600
+Wire Wire Line
+	7100 2600 6500 2600
+Wire Wire Line
+	5200 2600 5200 2450
+Wire Wire Line
+	5800 2450 5800 2600
+Connection ~ 5800 2600
+Wire Wire Line
+	5800 2600 5200 2600
+Wire Wire Line
+	6500 2450 6500 2600
+Connection ~ 6500 2600
+Wire Wire Line
+	6500 2600 5800 2600
+Wire Wire Line
+	7400 2450 7400 2100
+Connection ~ 7400 1400
+Wire Wire Line
+	7400 1400 7400 1000
+Connection ~ 7400 1700
+Wire Wire Line
+	7400 1700 7400 1400
+Connection ~ 7400 2100
+Wire Wire Line
+	7400 2100 7400 1700
+Wire Wire Line
+	6800 1000 6800 1400
+Connection ~ 6800 1400
+Wire Wire Line
+	6800 1400 6800 1700
+Connection ~ 6800 1700
+Wire Wire Line
+	6800 1700 6800 2100
+Connection ~ 6800 2100
+Wire Wire Line
+	6800 2100 6800 2450
+Wire Wire Line
+	6100 2450 6100 2100
+Connection ~ 6100 1400
+Wire Wire Line
+	6100 1400 6100 1000
+Connection ~ 6100 1700
+Wire Wire Line
+	6100 1700 6100 1400
+Connection ~ 6100 2100
+Wire Wire Line
+	6100 2100 6100 1700
+Wire Wire Line
+	5500 1000 5500 1400
+Connection ~ 5500 1400
+Wire Wire Line
+	5500 1400 5500 1700
+Connection ~ 5500 1700
+Wire Wire Line
+	5500 1700 5500 2100
+Connection ~ 5500 2100
+Wire Wire Line
+	5500 2100 5500 2450
+$Comp
+L Device:R R1
+U 1 1 69ACD845
+P 4900 1100
+F 0 "R1" V 4693 1100 50  0000 C CNN
+F 1 "R" V 4784 1100 50  0000 C CNN
+F 2 "" V 4830 1100 50  0001 C CNN
+F 3 "~" H 4900 1100 50  0001 C CNN
+	1    4900 1100
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R2
+U 1 1 69ACF2FF
+P 4900 1500
+F 0 "R2" V 4693 1500 50  0000 C CNN
+F 1 "R" V 4784 1500 50  0000 C CNN
+F 2 "" V 4830 1500 50  0001 C CNN
+F 3 "~" H 4900 1500 50  0001 C CNN
+	1    4900 1500
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R3
+U 1 1 69AD224A
+P 4900 1800
+F 0 "R3" V 4693 1800 50  0000 C CNN
+F 1 "R" V 4784 1800 50  0000 C CNN
+F 2 "" V 4830 1800 50  0001 C CNN
+F 3 "~" H 4900 1800 50  0001 C CNN
+	1    4900 1800
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R4
+U 1 1 69AD4FBF
+P 4900 2200
+F 0 "R4" V 4693 2200 50  0000 C CNN
+F 1 "R" V 4784 2200 50  0000 C CNN
+F 2 "" V 4830 2200 50  0001 C CNN
+F 3 "~" H 4900 2200 50  0001 C CNN
+	1    4900 2200
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R5
+U 1 1 69AD7F1E
+P 4900 2600
+F 0 "R5" V 4693 2600 50  0000 C CNN
+F 1 "R" V 4784 2600 50  0000 C CNN
+F 2 "" V 4830 2600 50  0001 C CNN
+F 3 "~" H 4900 2600 50  0001 C CNN
+	1    4900 2600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5050 2600 5200 2600
+Connection ~ 5200 2600
+Wire Wire Line
+	5050 2200 5200 2200
+Connection ~ 5200 2200
+Wire Wire Line
+	5050 1800 5200 1800
+Connection ~ 5200 1800
+Wire Wire Line
+	5050 1500 5200 1500
+Connection ~ 5200 1500
+Wire Wire Line
+	5050 1100 5200 1100
+Connection ~ 5200 1100
+Connection ~ 1700 3150
+Connection ~ 1650 2550
+Connection ~ 1700 2050
+Connection ~ 1700 1550
+Connection ~ 1700 1100
+$Comp
+L MCU_Module:Arduino_Nano_v3.x A1
+U 1 1 69A7CCE0
+P 2050 4700
+F 0 "A1" H 2050 3611 50  0000 C CNN
+F 1 "Arduino_Nano_v3.x" H 2050 3520 50  0000 C CNN
+F 2 "Module:Arduino_Nano" H 2050 4700 50  0001 C CIN
+F 3 "http://www.mouser.com/pdfdocs/Gravitech_Arduino_Nano3_0.pdf" H 2050 4700 50  0001 C CNN
+	1    2050 4700
+	1    0    0    -1  
+$EndComp
+Connection ~ 2750 1850
+Connection ~ 2750 1350
+Wire Wire Line
+	2750 1650 2750 1850
+Wire Wire Line
+	2750 2150 2750 2700
+Wire Wire Line
+	2750 1250 2750 1350
+Connection ~ 2750 2900
+Connection ~ 2750 2700
+Wire Wire Line
+	2750 2900 2750 2700
+Wire Wire Line
+	2700 2700 2750 2700
+Connection ~ 3500 2900
+Connection ~ 3500 2400
+Connection ~ 3500 1850
+Connection ~ 3500 1350
+Wire Wire Line
+	3500 1350 3500 1250
+Wire Wire Line
+	3500 1850 3500 1650
+Wire Wire Line
+	3500 2400 3500 2150
+Wire Wire Line
+	3500 2900 3500 2700
+Wire Wire Line
+	3450 2400 3500 2400
+$Comp
+L Device:D D3
+U 1 1 69A70CC6
+P 2750 1100
+F 0 "D3" V 2796 1020 50  0000 R CNN
+F 1 "D" V 2705 1020 50  0000 R CNN
+F 2 "Diode_THT:D_T-1_P5.08mm_Horizontal" H 2750 1100 50  0001 C CNN
+F 3 "~" H 2750 1100 50  0001 C CNN
+	1    2750 1100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D4
+U 1 1 69A70566
+P 3500 1100
+F 0 "D4" V 3546 1020 50  0000 R CNN
+F 1 "D" V 3455 1020 50  0000 R CNN
+F 2 "Diode_THT:D_T-1_P5.08mm_Horizontal" H 3500 1100 50  0001 C CNN
+F 3 "~" H 3500 1100 50  0001 C CNN
+	1    3500 1100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D8
+U 1 1 69A6FE33
+P 3500 1500
+F 0 "D8" V 3546 1420 50  0000 R CNN
+F 1 "D" V 3455 1420 50  0000 R CNN
+F 2 "Diode_THT:D_T-1_P5.08mm_Horizontal" H 3500 1500 50  0001 C CNN
+F 3 "~" H 3500 1500 50  0001 C CNN
+	1    3500 1500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D7
+U 1 1 69A6F6CE
+P 2750 1500
+F 0 "D7" V 2796 1420 50  0000 R CNN
+F 1 "D" V 2705 1420 50  0000 R CNN
+F 2 "Diode_THT:D_T-1_P5.08mm_Horizontal" H 2750 1500 50  0001 C CNN
+F 3 "~" H 2750 1500 50  0001 C CNN
+	1    2750 1500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D11
+U 1 1 69A6D700
+P 2750 2000
+F 0 "D11" V 2796 1920 50  0000 R CNN
+F 1 "D" V 2705 1920 50  0000 R CNN
+F 2 "Diode_THT:D_T-1_P5.08mm_Horizontal" H 2750 2000 50  0001 C CNN
+F 3 "~" H 2750 2000 50  0001 C CNN
+	1    2750 2000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D12
+U 1 1 69A6CF32
+P 3500 2000
+F 0 "D12" V 3546 1920 50  0000 R CNN
+F 1 "D" V 3455 1920 50  0000 R CNN
+F 2 "Diode_THT:D_T-1_P5.08mm_Horizontal" H 3500 2000 50  0001 C CNN
+F 3 "~" H 3500 2000 50  0001 C CNN
+	1    3500 2000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D16
+U 1 1 69A6C8C2
+P 3500 2550
+F 0 "D16" V 3546 2470 50  0000 R CNN
+F 1 "D" V 3455 2470 50  0000 R CNN
+F 2 "Diode_THT:D_T-1_P5.08mm_Horizontal" H 3500 2550 50  0001 C CNN
+F 3 "~" H 3500 2550 50  0001 C CNN
+	1    3500 2550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D15
+U 1 1 69A6C167
+P 2700 2550
+F 0 "D15" V 2746 2470 50  0000 R CNN
+F 1 "D" V 2655 2470 50  0000 R CNN
+F 2 "Diode_THT:D_T-1_P5.08mm_Horizontal" H 2700 2550 50  0001 C CNN
+F 3 "~" H 2700 2550 50  0001 C CNN
+	1    2700 2550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D20
+U 1 1 69A6B0EA
+P 3500 3050
+F 0 "D20" V 3546 2970 50  0000 R CNN
+F 1 "D" V 3455 2970 50  0000 R CNN
+F 2 "Diode_THT:D_T-1_P5.08mm_Horizontal" H 3500 3050 50  0001 C CNN
+F 3 "~" H 3500 3050 50  0001 C CNN
+	1    3500 3050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D19
+U 1 1 69A6AA3E
+P 2750 3050
+F 0 "D19" V 2796 2970 50  0000 R CNN
+F 1 "D" V 2705 2970 50  0000 R CNN
+F 2 "Diode_THT:D_T-1_P5.08mm_Horizontal" H 2750 3050 50  0001 C CNN
+F 3 "~" H 2750 3050 50  0001 C CNN
+	1    2750 3050
+	0    -1   -1   0   
+$EndComp
+Connection ~ 2350 3150
+Wire Wire Line
+	2350 3150 1700 3150
+Wire Wire Line
+	2350 3150 2350 2900
+Wire Wire Line
+	3100 3150 2350 3150
+Wire Wire Line
+	3100 2900 3100 3150
+Connection ~ 2300 2550
+Wire Wire Line
+	3050 2550 3050 2400
+Wire Wire Line
+	2300 2550 3050 2550
+Wire Wire Line
+	2300 2550 2300 2400
+Wire Wire Line
+	1650 2550 2300 2550
+Connection ~ 2350 2050
+Wire Wire Line
+	3100 2050 3100 1850
+Wire Wire Line
+	2350 2050 3100 2050
+Wire Wire Line
+	2350 2050 2350 1850
+Wire Wire Line
+	1700 2050 2350 2050
+Connection ~ 2350 1550
+Wire Wire Line
+	3100 1550 3100 1350
+Wire Wire Line
+	2350 1550 3100 1550
+Wire Wire Line
+	2350 1550 2350 1350
+Wire Wire Line
+	1700 1550 2350 1550
+Connection ~ 2350 1100
+Wire Wire Line
+	3100 1100 3100 950 
+Wire Wire Line
+	2350 1100 3100 1100
+Wire Wire Line
+	2350 1100 2350 950 
+Wire Wire Line
+	1700 1100 2350 1100
+$Comp
+L Switch:SW_SPST SW20
+U 1 1 69A5F165
+P 3300 2900
+F 0 "SW20" H 3300 3135 50  0000 C CNN
+F 1 "SW_SPST" H 3300 3044 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate" H 3300 2900 50  0001 C CNN
+F 3 "~" H 3300 2900 50  0001 C CNN
+	1    3300 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_SPST SW19
+U 1 1 69A5F15F
+P 2550 2900
+F 0 "SW19" H 2550 3135 50  0000 C CNN
+F 1 "SW_SPST" H 2550 3044 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate" H 2550 2900 50  0001 C CNN
+F 3 "~" H 2550 2900 50  0001 C CNN
+	1    2550 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_SPST SW16
+U 1 1 69A5DCF1
+P 3250 2400
+F 0 "SW16" H 3250 2635 50  0000 C CNN
+F 1 "SW_SPST" H 3250 2544 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate" H 3250 2400 50  0001 C CNN
+F 3 "~" H 3250 2400 50  0001 C CNN
+	1    3250 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_SPST SW15
+U 1 1 69A5DCEB
+P 2500 2400
+F 0 "SW15" H 2500 2635 50  0000 C CNN
+F 1 "SW_SPST" H 2500 2544 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate" H 2500 2400 50  0001 C CNN
+F 3 "~" H 2500 2400 50  0001 C CNN
+	1    2500 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_SPST SW12
+U 1 1 69A5DCD9
+P 3300 1850
+F 0 "SW12" H 3300 2085 50  0000 C CNN
+F 1 "SW_SPST" H 3300 1994 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate" H 3300 1850 50  0001 C CNN
+F 3 "~" H 3300 1850 50  0001 C CNN
+	1    3300 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_SPST SW11
+U 1 1 69A5DCD3
+P 2550 1850
+F 0 "SW11" H 2550 2085 50  0000 C CNN
+F 1 "SW_SPST" H 2550 1994 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate" H 2550 1850 50  0001 C CNN
+F 3 "~" H 2550 1850 50  0001 C CNN
+	1    2550 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_SPST SW8
+U 1 1 69A5A1E1
+P 3300 1350
+F 0 "SW8" H 3300 1585 50  0000 C CNN
+F 1 "SW_SPST" H 3300 1494 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate" H 3300 1350 50  0001 C CNN
+F 3 "~" H 3300 1350 50  0001 C CNN
+	1    3300 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_SPST SW7
+U 1 1 69A5A1DB
+P 2550 1350
+F 0 "SW7" H 2550 1585 50  0000 C CNN
+F 1 "SW_SPST" H 2550 1494 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate" H 2550 1350 50  0001 C CNN
+F 3 "~" H 2550 1350 50  0001 C CNN
+	1    2550 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_SPST SW4
+U 1 1 69A586C1
+P 3300 950
+F 0 "SW4" H 3300 1185 50  0000 C CNN
+F 1 "SW_SPST" H 3300 1094 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate" H 3300 950 50  0001 C CNN
+F 3 "~" H 3300 950 50  0001 C CNN
+	1    3300 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_SPST SW3
+U 1 1 69A586BB
+P 2550 950
+F 0 "SW3" H 2550 1185 50  0000 C CNN
+F 1 "SW_SPST" H 2550 1094 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate" H 2550 950 50  0001 C CNN
+F 3 "~" H 2550 950 50  0001 C CNN
+	1    2550 950 
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
